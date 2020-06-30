@@ -1,0 +1,136 @@
+# Translation of Plugins - Easy HTTPS Redirection (SSL) - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Easy HTTPS Redirection (SSL) - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-12-30 14:53:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Easy HTTPS Redirection (SSL) - Development (trunk)\n"
+
+#: https-redirection-settings.php:150
+msgid "Enable Permalinks"
+msgstr "Activer les permaliens"
+
+#: https-redirection-settings.php:140
+msgid "The changes will be applied immediately after saving the changes, if you are not sure - do not click the \"Save changes\" button."
+msgstr "Les modifications seront appliquées immédiatement après leur enregistrement, si vous n’êtes pas sûr - ne cliquez pas sur le bouton « Enregistrer les modifications »."
+
+#: https-redirection-settings.php:138
+msgid "Step #3: Deactivate the plugin or rename this plugin's folder (which will deactivate the plugin)."
+msgstr "Étape #3 : désactivez l’extension ou renommez le dossier de cette extension (ce qui la désactivera)."
+
+#: https-redirection-settings.php:132
+msgid "Step #1: Open .htaccess file in the root directory of the WordPress install and delete everything between the following two lines"
+msgstr "Étape #1 : ouvrez le fichier .htaccess dans le répertoire racine de l’installation WordPress et supprimez tout ce qui se trouve entre les deux lignes suivantes"
+
+#: https-redirection-settings.php:137
+msgid "Step #2: Save the htaccess file (this will erase any change this plugin made to that file)."
+msgstr "Étape #2 : enregistrez le fichier .htaccess (cela effacera toute modification apportée par cette extension à ce fichier)."
+
+#: https-redirection-settings.php:131
+msgid "If after making changes your site stops functioning, do the following:"
+msgstr "Si, après avoir effectué des modifications, votre site cesse de fonctionner, procédez comme suit :"
+
+#: https-redirection-settings.php:95
+msgid "When checked, the plugin will force load HTTPS URL for any static resources in your content. Example: if you have have an image embedded in a post with a NON-HTTPS URL, this option will change that to a HTTPS URL."
+msgstr "Lorsque coché, l’extension va forcer le chargement de l’URL HTTPS pour toutes les ressources statiques de votre contenu. Exemple : si vous avez une image embarquée dans une publication avec une URL non-HTTPS, cette option va modifier cela en une URL HTTPS."
+
+#: https-redirection-settings.php:80
+msgid "A few pages"
+msgstr "Quelques pages"
+
+#: https-redirection-settings.php:79
+msgid "The whole domain"
+msgstr "Le domaine entier"
+
+#: https-redirection-settings.php:77
+msgid "Apply HTTPS redirection on:"
+msgstr "Appliquer la redirection HTTPS sur :"
+
+#: https-redirection-settings.php:53
+msgid "Important!"
+msgstr "Important !"
+
+#: https-redirection-settings.php:70
+msgid "Use this option to make your webpage(s) load in HTTPS version only. If someone enters a non-https URL in the browser's address bar then the plugin will automatically redirect to the HTTPS version of that URL."
+msgstr "Utilisez cette option pour que vos pages web se chargent uniquement en version HTTPS. Si quelqu’un saisit une URL non HTTPS dans la barre d’adresse du navigateur, alors l’extension redirigera automatiquement vers la version HTTPS de cette URL."
+
+#: https-redirection-settings.php:53
+msgid "If you're using caching plugins similar to W3 Total Cache or WP Super Cache, you need to clear their cache after you enable or disable automatic redirection option. Failing to do so may result in mixed content warning from browser."
+msgstr "Si vous utilisez des extensions de mise en cache similaires à W3 Total Cache ou WP Super Cache, vous devez vider leur cache après avoir activé ou désactivé l’option de redirection automatique. Si vous ne le faites pas, vous risquez de recevoir un avertissement de contenu mixte de la part du navigateur."
+
+#: https-redirection-settings.php:51
+msgid "When you enable the HTTPS redirection, the plugin will force redirect the URL to the HTTPS version of the URL. So before enabling this plugin's feature, visit your site's HTTPS URL %s to make sure the page loads correctly. Otherwise you may get locked out if your SSL certificate is not installed correctly on your site or the HTTPS URL is not working and this plugin is auto redirecting to the HTTPS URL."
+msgstr "Lorsque vous activez la redirection HTTPS, l’extension va forcer la redirection de l’URL vers sa version HTTPS. Donc avant d’activer cette fonctionnalité de l’extension, visitez l’URL HTTPS %s de votre site pour vous assurer que la page se charge correctement. Sinon, vous risquez d’être bloqué si votre certificat SSL n’est pas installé correctement sur votre site ou si l’URL HTTPS ne fonctionne pas et que cette extension redirige automatiquement vers l’URL HTTPS."
+
+#: https-redirection-settings.php:28
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: https-redirection-settings.php:48
+msgid "HTTPS Redirection Settings"
+msgstr "Réglages de redirection HTTPS"
+
+#: https-redirection-settings.php:61 https-redirection-settings.php:130
+msgid "Notice:"
+msgstr "Notification :"
+
+#: https-redirection-settings.php:67
+msgid "Enable automatic redirection to the \"HTTPS\""
+msgstr "Activer la redirection automatique vers le « HTTP »."
+
+#: https-redirection-settings.php:83 https-redirection-settings.php:87
+msgid "Please, fill field"
+msgstr "Veuillez remplir le champ"
+
+#: https-redirection-settings.php:61
+msgid "The plugin's settings have been changed. In order to save them please don't forget to click the 'Save Changes' button."
+msgstr "Les réglages de l’extension ont été modifiés. Afin de les enregistrer, n’oubliez pas de cliquer sur le bouton « Enregistrer les modifications »."
+
+#: https-redirection-settings.php:92
+msgid "Force resources to use HTTPS URL"
+msgstr "Forcer les ressources à utiliser l’URL HTTPS"
+
+#: https-redirection-settings.php:114
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: https-redirection-settings.php:130
+msgid "It is very important to be extremely attentive when making changes to .htaccess file."
+msgstr "Il est très important d’être extrêmement attentif lorsque vous apportez des modifications au fichier .htaccess."
+
+#: https-redirection-settings.php:148
+msgid "HTTPS redirection only works if you have pretty permalinks enabled."
+msgstr "La redirection HTTPS fonctionne uniquement si vous avez activé les permaliens."
+
+#: https-redirection-settings.php:149
+msgid "To enable pretty permalinks go to <em>Settings > Permalinks</em> and select any option other than \"default\"."
+msgstr "Pour activer les permaliens personnalisés, allez dans <em>Réglages > Permaliens</em> et sélectionnez une option autre que « Par défaut »."
+
+#: https-redirection.php:113 https-redirection.php:122
+msgid "Settings"
+msgstr "Réglages"
+
+#. Plugin Name of the plugin
+msgid "Easy HTTPS (SSL) Redirection"
+msgstr "Easy HTTPS (SSL) Redirection"
+
+#. Plugin URI of the plugin
+msgid "https://www.tipsandtricks-hq.com/wordpress-easy-https-redirection-plugin"
+msgstr "https://www.tipsandtricks-hq.com/wordpress-easy-https-redirection-plugin"
+
+#. Description of the plugin
+msgid "The plugin HTTPS Redirection allows an automatic redirection to the \"HTTPS\" version/URL of the site."
+msgstr "L’extension HTTPS Redirection permet une redirection automatique vers la version/URL « HTTPS » du site."
+
+#. Author of the plugin
+msgid "Tips and Tricks HQ"
+msgstr "Tips and Tricks HQ"
+
+#. Author URI of the plugin
+msgid "https://www.tipsandtricks-hq.com/"
+msgstr "https://www.tipsandtricks-hq.com/"
